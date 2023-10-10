@@ -1,12 +1,16 @@
-import './App.css'
+import "./App.css";
+import CustomizedBadges from "./MUI/CustomizedBadges";
+import ButtonAndField from "./MUI/ButtonAndField";
+import BasicModal from "./MUI/BasicModal";
 
 function App() {
-
   return (
-    <>
-      <div>hello !</div>
-    </>
-  )
+    <div className="web">
+      <ButtonAndField />
+      <CustomizedBadges />
+      <BasicModal />
+    </div>
+  );
 }
 
-export default App
+export default App;
